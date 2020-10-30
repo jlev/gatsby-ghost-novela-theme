@@ -83,6 +83,7 @@ module.exports = async ({ actions: { createPage }, graphql }, themeOptions) => {
   let tags;
   let pages;
   let ghostSettings;
+  let websiteTitle;
 
   const dataSources = {
     ghost: { authors: [], articles: [], tags: [], pages: [] },
